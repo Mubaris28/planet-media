@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const gap = 20; // Fixed gap size
             let width;
 
-            if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 576) {
                 width = containerWidth;
             } else if (window.innerWidth <= 1024) {
                 width = (containerWidth - gap) / 2;
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         const updateButtonStates = () => {
-            const visibleSlides = window.innerWidth <= 768 ? 1 : window.innerWidth <= 1024 ? 2 : 3;
+            const visibleSlides = window.innerWidth <= 576 ? 1 : window.innerWidth <= 1024 ? 2 : 3;
             const maxIndex = slides.length - visibleSlides;
             
             prevButton.disabled = currentIndex <= 0;
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
         nextButton.addEventListener('click', () => {
             if (!nextButton.disabled && !isTransitioning) {
                 isTransitioning = true;
-                const visibleSlides = window.innerWidth <= 768 ? 1 : window.innerWidth <= 1024 ? 2 : 3;
+                const visibleSlides = window.innerWidth <= 576 ? 1 : window.innerWidth <= 1024 ? 2 : 3;
                 const maxIndex = slides.length - visibleSlides;
                 
                 currentIndex = Math.min(maxIndex, currentIndex + 1);
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 track.style.transition = 'none';
                 
                 // Ensure current index is valid after resize
-                const visibleSlides = window.innerWidth <= 768 ? 1 : window.innerWidth <= 1024 ? 2 : 3;
+                const visibleSlides = window.innerWidth <= 576 ? 1 : window.innerWidth <= 1024 ? 2 : 3;
                 const maxIndex = slides.length - visibleSlides;
                 currentIndex = Math.min(currentIndex, maxIndex);
                 
@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Close mobile menu on window resize
     window.addEventListener('resize', () => {
-        if (window.innerWidth > 768 && navLinks.classList.contains('active')) {
+        if (window.innerWidth > 576 && navLinks.classList.contains('active')) {
             toggleMenu();
         }
     });
