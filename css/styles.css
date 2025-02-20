@@ -1291,6 +1291,7 @@ footer {
 
 @media (max-width: 768px) {
     .footer-wrapper {
+        margin: 0 auto;
         padding: 30px;
         border-radius: 30px;
         margin: 10px;
@@ -1331,6 +1332,7 @@ footer {
 
 @media (max-width: 480px) {
     .footer-wrapper {
+        margin: 0 auto;
         padding: 20px;
         border-radius: 15px;
         margin: 5px;
@@ -1410,6 +1412,7 @@ footer {
     }
 
     .footer-wrapper {
+        margin: 0 auto;
         padding: 0 20px;
     }
 
