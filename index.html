@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover luxury living with RealState. Experience unparalleled sophistication in our signature developments. Find your dream home today.">
+    <meta name="keywords" content="luxury real estate, luxury homes, property development, real estate, luxury living">
+    <meta name="author" content="RealState">
+    <meta property="og:title" content="RealState - Luxury Living">
+    <meta property="og:description"
+        content="Experience unparalleled luxury and sophistication in our signature developments.">
+    <meta property="og:image" content="img/Hero-img.png">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>RealState - Luxury Living | Premium Real Estate Properties</title>
+    <link rel="canonical" href="https://yourwebsite.com">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="menu-overlay"></div>
+    <div class="search-overlay">
+        <div class="search-container">
+            <form class="search-form" role="search">
+                <input type="search" placeholder="Search in website..." aria-label="Search">
+                <button type="submit" aria-label="Submit search">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <button class="close-search" aria-label="Close search">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="search-results" aria-live="polite">
+                <!-- Results will be populated here -->
+            </div>
+        </div>
+    </div>
+    <header role="banner">
+
+        <nav role="navigation" aria-label="Main navigation">
+
+            <div class="left-nav">
+                <div class="logo">
+                    <a href="/" aria-label="RealState Home">
+                        <img src="img/Logo-real.png" alt="RealState Logo" width="120" height="30">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" aria-current="page">HOME</a></li>
+                    <li><a href="#experiences">EXPERIENCES</a></li>
+                    <li><a href="#accommodation">ACCOMMODATION</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li class="mobile-nav-buttons">
+                        <button class="search-btn" aria-label="Search"><i class="fas fa-search"></i> Search</button>
+                    </li>
+                    <li class="mobile-nav-buttons">
+                        <button class="book-now" aria-label="Book now">Book now <i class="fas fa-arrow-up"></i></button>
+                    </li>
+                </ul>
+            </div>
+            <div class="desktop-nav-buttons">
+                <button class="search-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+                <button class="book-now" aria-label="Book now">Book now <i class="fas fa-arrow-up"></i></button>
+            </div>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </nav>
+
+    </header>
+
+    <main role="main">
+        <section id="hero">
+            <div class="hero-background" data-aos="fade-up" data-aos-duration="1000">
+                <img src="img/Hero-img.png" alt="Luxury Home" class="hero-bg-img">
+            </div>
+            <div class="hero-content-wrapper">
+                <div class="container-hero">
+                    <div class="hero-flex">
+                        <div class="hero-content" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                            <h1>Journey of unparalleled<br>luxury and sophistication</h1>
+                            <p>Elevate your dream living experiences to new heights, where every detail is crafted with
+                                precision and passion. Discover a world where elegance meets functionality, and where
+                                the
+                                art of living is truly redefined.</p>
+                        </div>
+                        <div class="social-proof" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                            <img src="img/social-proof.png" alt="Social Proof" class="social-proof-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" aria-labelledby="about-heading">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-header">
+                        <h2 id="about-heading" data-aos="fade-up">About Us</h2>
+                    </div>
+                    <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+                        <div class="about-text">
+                            <p>We are passionate about capturing meaningful moments and creating lasting memories. <span
+                                    style="color: #596780;">Our
+                                    mission is to empower you on your homeownership journey through a seamless and
+                                    dedicated
+                                    effort. We believe in turning dreams into reality, and commitment to help you own
+                                    your
+                                    home with confidence and ease.</span></p>
+                            <a href="#" class="discover-more" aria-label="Learn more about our services">
+                                Discover more <i class="fas fa-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" aria-labelledby="gallery-heading">
+            <div class="container">
+                <div class="gallery-wrapper">
+                    <div class="gallery-header">
+                        <div class="gallery-text">
+                            <h2 id="gallery-heading" data-aos="fade-up">Gallery</h2>
+                            <p class="section-desc" data-aos="fade-up" data-aos-delay="200">
+                                Ability to naturalize the living space by introducing natural light through large glass
+                                panels and a skylight above.
+                            </p>
+                        </div>
+                        <div class="slider-controls">
+                            <button class="slider-arrow prev" aria-label="Previous slide">
+                                <i class="fas fa-arrow-left"></i>
+                            </button>
+                            <button class="slider-arrow next" aria-label="Next slide">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-slider" data-aos="fade-up" data-aos-delay="300">
+                        <div class="gallery-track">
+                            <div class="gallery-item">
+                                <img src="img/Card1.png" alt="Modern exterior with vertical garden" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="img/Card2.png" alt="Modern dining area with natural light" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="img/Card3.png" alt="Contemporary bathroom design" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="img/Card1.png" alt="Modern exterior with vertical garden" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="img/Card2.png" alt="Modern dining area with natural light" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="img/Card3.png" alt="Contemporary bathroom design" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <div class="features-wrapper">
+                    <div class="features-grid">
+                        <div class="feature-card" data-aos="fade-up">
+                            <img src="img/timeless.png" alt="Timeless tradition" class="feature-icon">
+                            <h3>Timeless tradition</h3>
+                            <p>Perfect fusion of innovation and heritage, where every detail pays to the past while
+                                embracing the future.</p>
+                        </div>
+                        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                            <img src="img/fushion.png" alt="Fusion finesse" class="feature-icon">
+                            <h3>Fushion finesse</h3>
+                            <p>Harmonious fusion of sleek lines, luxurious textures, and intuitive user experience,
+                                curated to elevate your living.</p>
+                        </div>
+                        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                            <img src="img/prograsive.png" alt="Progressive spaces" class="feature-icon">
+                            <h3>Progressive spaces</h3>
+                            <p>Immerse yourself in spaces designed to evolve with your lifestyle, creating a dynamic and
+                                progressive environment.</p>
+                        </div>
+                        <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                            <img src="img/future.png" alt="Future innovation" class="feature-icon">
+                            <h3>Future innovation</h3>
+                            <p>Virtual canvas where architectural brilliance meets functionality, creating a space that
+                                adapts to your lifestyle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="layout" aria-labelledby="layout-heading">
+            <div class="container">
+                <div class="layout-wrapper">
+                    <div class="layout-header">
+                        <h2 id="layout-heading" data-aos="fade-up">Layout</h2>
+                        <div class="layout-text" data-aos="fade-up" data-aos-delay="100">
+                            <p>Beautiful minimalist-inspired home celebrates graceful living, featuring spacious rooms
+                                and an open porch connected to the great room.</p>
+                        </div>
+                    </div>
+                    <div class="layout-content" data-aos="fade-up" data-aos-delay="200">
+                        <div class="layout-grid">
+                            <div class="layout-item" data-aos="fade-up" data-aos-delay="300">
+                                <img src="img/layout1.png" alt="Home Layout Design 1" loading="lazy">
+                            </div>
+                            <div class="layout-item" data-aos="fade-up" data-aos-delay="400">
+                                <img src="img/layout2.png" alt="Home Layout Design 2" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="video-showcase" aria-labelledby="video-heading">
+            <div class="container">
+                <div class="video-wrapper">
+                    <div class="video-grid">
+                        <div class="video-player" data-aos="fade-up">
+                            <div class="video-container">
+                                <div class="video-options">
+                                    <button class="option-btn" aria-label="Full screen">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                    <button class="option-btn" aria-label="Comments">
+                                        <i class="fas fa-comment"></i>
+                                    </button>
+                                    <button class="option-btn" aria-label="More options">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </button>
+                                </div>
+                                <img src="img/thumbnail1.png" alt="Video Thumbnail" class="video-thumbnail">
+                                <div class="video-info">
+                                    <div class="info-left">
+                                        <h3>Kitchen room</h3>
+                                        <p>Section 1 room tour</p>
+                                    </div>
+                                    <div class="info-right">
+                                        <span class="timestamp">47:38 / 1:52:32</span>
+                                    </div>
+                                </div>
+                                <div class="video-controls">
+                                    <div class="progress-container">
+                                        <div class="progress-bar">
+                                            <div class="progress-filled"></div>
+                                        </div>
+                                    </div>
+                                    <div class="control-buttons">
+                                        <div class="left-controls">
+                                            <button class="control-btn play-pause">
+                                                <i class="fas fa-pause"></i>
+                                            </button>
+                                            <button class="control-btn prev">
+                                                <i class="fas fa-backward"></i>
+                                            </button>
+                                            <button class="control-btn next">
+                                                <i class="fas fa-forward"></i>
+                                            </button>
+                                        </div>
+                                        <div class="right-controls">
+                                            <button class="control-btn volume">
+                                                <i class="fas fa-volume-up"></i>
+                                            </button>
+                                            <button class="control-btn comments">
+                                                <i class="fas fa-comment"></i>
+                                            </button>
+                                            <button class="control-btn fullscreen">
+                                                <i class="fas fa-expand"></i>
+                                            </button>
+                                            <button class="control-btn more">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-preview" data-aos="fade-up" data-aos-delay="200">
+                            <div class="preview-container">
+                                <img src="img/thumbnail2.png" alt="Video Preview" class="preview-thumbnail">
+                                <button class="play-button">
+                                    <img src="img/play-button.png" alt="Play Button">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-wrapper">
+            <div class="footer-main">
+                <!-- Left Side -->
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="img/Logo-real.png" alt="Realstate Logo">
+                    </div>
+                    <h2>What are you waiting for?</h2>
+                    <p>Let's discuss for exclusive benefit, and elevate your living experience today!</p>
+                    <button class="schedule-call">
+                        Schedule quick call
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                </div>
+
+                <!-- Right Side -->
+                <div class="footer-right">
+                    <div class="footer-info">
+                        <div class="location">
+                            <p>BASED IN UNITED STATES</p>
+                            <p>WORKING WORLDWIDE</p>
+                        </div>
+                        <div class="working-hours">
+                            <p>WEEKDAYS</p>
+                            <p>09:00 - 18:00 (UCT+8)</p>
+                        </div>
+                    </div>
+
+                    <div class="newsletter-section">
+                        <h3>Newsletter</h3>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="Email address">
+                            <button>
+                                Subscribe
+                                <i class="fas fa-arrow-up"></i>
+                            </button>
+                        </div>
+                        <p class="newsletter-desc">Join our newsletter to stay informed about new tips, tutorials,
+                            projects, products, investments, and more.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-nav">
+                    <a href="#experiences">EXPERIENCES</a>
+                    <a href="#accommodation">ACCOMMODATION</a>
+                    <a href="#gallery">GALLERY</a>
+                    <a href="#about">ABOUT US</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Follow us on Instagram">INSTAGRAM <i class="fas fa-arrow-up"></i></a>
+                    <a href="#" aria-label="Follow us on Twitter">TWITTER <i class="fas fa-arrow-up"></i></a>
+                    <a href="#" aria-label="Subscribe to our YouTube">YOUTUBE <i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-brand">
+                REAL STATE
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
